@@ -58,8 +58,6 @@ When setting up a React application for real-world development, it's important t
 npm install react-router-dom uuid styled-components react-hook-form yup dotenv lodash date-fns @tanstack/react-query
 ```
 
-`dev dependency package ` <br>
-
 1. **install dev dependency package for typescript:**
    ```sh
    npm install -D  @types/lodash @types/date-fns
@@ -76,8 +74,13 @@ npm install react-router-dom uuid styled-components react-hook-form yup dotenv l
    ```sh
    npm install -D  @types/react-router-dom
    ```
+2. **install primereact UI component (for both javascript and typescript base react project) :**
 
-- [react-router-dom] - Handling routing and navigation in your React application
+   ```sh
+   npm install  primeflex primeicons primereact
+   ```
+
+- [react-router-dom] Handling routing and navigation in your React application
 - [Ace Editor] - awesome web-based text editor
 - [markdown-it] - Markdown parser done right. Fast and easy to extend.
 - [Twitter Bootstrap] - great UI boilerplate for modern web apps
@@ -87,7 +90,3 @@ npm install react-router-dom uuid styled-components react-hook-form yup dotenv l
 - [Breakdance](https://breakdance.github.io/breakdance/) - HTML
   to Markdown converter
 - [jQuery] - duh
-
-```
-
-```
