@@ -54,7 +54,9 @@ Welcome to the **fronttendmaster/starter-templates** repository! This branch con
 
 When setting up a React application for real-world development, it's important to include packages that are essential for building scalable, maintainable, and feature-rich applications. Below is a list of minimum packages you might consider, along with a brief description of their use in a typical React project:
 
-`npm install react-router-dom uuid styled-components react-hook-form yup dotenv lodash date-fns @tanstack/react-query` <br>
+```bash
+npm install react-router-dom uuid styled-components react-hook-form yup dotenv lodash date-fns @tanstack/react-query
+```
 
 `dev dependency package ` <br>
 `npm install -D  @types/lodash @types/date-fns`
@@ -73,3 +75,7 @@ When setting up a React application for real-world development, it's important t
 - [Breakdance](https://breakdance.github.io/breakdance/) - HTML
   to Markdown converter
 - [jQuery] - duh
+
+```
+
+```
