@@ -59,11 +59,23 @@ npm install react-router-dom uuid styled-components react-hook-form yup dotenv l
 ```
 
 `dev dependency package ` <br>
-`npm install -D  @types/lodash @types/date-fns`
-`npm install -D  @types/yup`
-`npm install -D  @types/styled-components`
-`npm install -D  @types/uuid`
-`npm install -D  @types/react-router-dom`
+
+1. **install dev dependency package for typescript:**
+   ```sh
+   npm install -D  @types/lodash @types/date-fns
+   ```
+   ```sh
+   npm install -D  @types/yup
+   ```
+   ```sh
+   npm install -D  @types/styled-components
+   ```
+   ```sh
+   npm install -D  @types/uuid
+   ```
+   ```sh
+   npm install -D  @types/react-router-dom
+   ```
 
 - [react-router-dom] - Handling routing and navigation in your React application
 - [Ace Editor] - awesome web-based text editor
