@@ -89,4 +89,4 @@ npm install react-router-dom uuid styled-components react-hook-form yup dotenv l
 - [Gulp] - the streaming build system
 - [Breakdance](https://breakdance.github.io/breakdance/) - HTML
   to Markdown converter
-- [jQuery] - duh
+- [jQuery] - jquery library
