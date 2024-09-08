@@ -1,13 +1,17 @@
-<main class="main flex align-items-center justify-content-center">
-  <div class="content">
-    <div class="left-side">
-      <h1>Hello, {{ title }}</h1>
-      <p class="text-center">Congratulations! Your app is running. 🎉</p>
-      <div class="card flex justify-content-center">
-        <p-button icon="pi pi-check" label="Get Started with PrimeNg" />
-      </div>
-    </div>
-  </div>
+<header>
+  <nav>
+    <ul class="m-0 p-0 flex align-items-center justify-content-center gap-2">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <router-outlet />
 </main>
 
-<router-outlet />
+<footer>
+  <p class="text-center">&copy; 2024 PrimeNG</p>
+</footer>

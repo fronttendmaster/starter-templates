@@ -37,7 +37,7 @@
 html {
   color-scheme: var(--color-scheme);
   scroll-behavior: smooth;
-  font-size: 13px;
+  /* font-size: 15px; */
 }
 
 body {
@@ -102,3 +102,13 @@ article {
 /* :host ::ng-deep .p-button {
   font-size: 15px !important;
 } */
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+app-root main {
+  flex-grow: 1;
+}
