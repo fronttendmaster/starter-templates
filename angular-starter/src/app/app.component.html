@@ -1,10 +1,33 @@
-<header>
+<!-- <header>
   <nav>
     <ul class="m-0 p-0 flex align-items-center justify-content-center gap-2">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
+  </nav>
+</header> -->
+
+<header class="pt-3">
+  <nav>
+    <ul class="m-0 p-0 flex align-items-center justify-content-center gap-4">
+      @for (menu of menuItems; track $index) {
+      <!-- template content to repeat -->
+      <li>
+        <p-button
+          [label]="menu.label"
+          [text]="true"
+          [raised]="true"
+          (click)="createBreadcumb(menu)"
+        />
+        <!-- <a (click)="checkBreadcrumb()"></a> -->
+      </li>
+      }
+    </ul>
+    <div class="py-4">
+      {{ items.length }}
+      <p-breadcrumb class="max-w-full" [model]="items" [home]="home" />
+    </div>
   </nav>
 </header>
 
